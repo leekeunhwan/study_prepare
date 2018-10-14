@@ -229,19 +229,19 @@ TypeScript로 유형 검사를 추가하려면 tsconfig.json 파일을 작성하
 
 {
   "compilerOptions": {
-    // Target latest version of ECMAScript.
+    /* Target latest version of ECMAScript. */
     "target": "esnext",
-    // Search under node_modules for non-relative imports.
+    /* Search under node_modules for non-relative imports. */
     "moduleResolution": "node",
-    // Process & infer types from .js files.
+    /* Process & infer types from .js files. */
     "allowJs": true,
-    // Don't emit; allow Babel to transform files.
+    /* Don't emit; allow Babel to transform files. */
     "noEmit": true,
-    // Enable strictest settings like strictNullChecks & noImplicitAny.
+    /* Enable strictest settings like strictNullChecks & noImplicitAny. */
     "strict": true,
-    // Disallow features that require cross-file information for emit.
+    /* Disallow features that require cross-file information for emit. */
     "isolatedModules": true,
-    // Import non-ES modules as default imports.
+    /* Import non-ES modules as default imports. */
     "esModuleInterop": true
   },
   "include": [
